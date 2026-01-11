@@ -1,0 +1,63 @@
+
+<html>
+<head>
+    <title>CSS Box Model – Detailed Practice</title>
+</head>
+<body>
+
+    <h1>CSS Box Model – Visual Practice</h1>
+    <p>
+        Each box below shows how <strong>content, padding, border, and margin</strong>
+        affect layout. Open DevTools (Right-click → Inspect) to see the box model diagram.
+    </p>
+
+    <div>BOX 1: padding: 10px | border: 10px | margin: 15px | width: 300px</div>
+    <div class="box box1">
+        rations<br>
+        (rice , legumes , fruits , vegies , sauces , spices )
+    </div>
+
+    <div>BOX 2: padding: 20px | border: 10px | margin: 25px | width: 300px</div>
+    <div class="box box2">
+        Larger padding pushes content inward
+    </div>
+
+    <div>BOX 3: padding: 30px | border: 10px | margin: 35px | width: 300px </div>
+    <div class="box box3">
+        Left & right padding is bigger than top & bottom
+    </div>
+    <hr>
+    <h2>Key Takeaways</h2>
+    <ul>
+        <li><strong>Padding</strong> increases space inside the box</li>
+        <li><strong>Border</strong> surrounds content + padding</li>
+        <li><strong>Margin</strong> controls spacing between elements</li>
+        <li>Total size = content + padding + border (margin is outside)</li>
+    </ul>
+     <style>
+        .box1 {
+  padding: 10px;
+  border: 10px solid blue;
+  margin: 15px;
+  background: lightblue;
+  width: 300px;
+}
+
+.box2 {
+  padding: 20px;
+  border: 10px dashed green;
+  margin: 25px;
+  background: lightgreen;
+  width: 300px;
+}
+
+.box3 {
+  padding: 30px;
+  border: 10px dotted red;
+  margin: 35px;
+  background: pink;
+  width: 300px;
+}
+     </style>
+</body>
+</html>
